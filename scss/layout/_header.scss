@@ -1,0 +1,90 @@
+header {
+    width: 100%;
+    height: 124px;
+    background: linear-gradient(to bottom, #001648  0%, rgb(6, 6, 6) 100%);
+}
+
+.logo-header {
+    color: #004FFF;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-header-noanim {
+    color: gray;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    transition: 0.4s;
+    display: flex;
+}
+
+.info-header-anim {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    transition: 0.4s;
+    &:hover {
+        animation: pulse;
+        animation-duration: 0.5s;
+    }
+}
+
+a{
+    color: #417CFF;
+}
+.info-header-list{
+    display: flex;
+    color: #417CFF;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    nav{
+        display: flex;
+        flex-direction: row;
+        padding-top: 38px;
+        justify-content: space-around;
+    }
+    .logo-header{
+    justify-content: start;
+    }
+    .info-header-list{
+        margin-top: 0;
+        display: flex;
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        padding-top: 26px;
+        justify-content: space-around;
+    }
+    .logo-header{
+    justify-content: start;
+    }
+    .info-header-list{
+        margin-top: 0;
+        display: flex;
+        gap: 25px;
+        font-weight: 100;
+        font-size: 6px;
+    }
+}

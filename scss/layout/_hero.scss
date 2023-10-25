@@ -1,0 +1,40 @@
+.hero {
+    height: 321px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero-h1 {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    display: flex;
+    text-align: center;
+    color: #004FFF;
+    padding-top: 90px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .hero-h1 {
+        font-size: 80px;
+        line-height: 1.89;
+
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        height: 637px;
+    }
+
+    .hero-h1 {
+        line-height: 1.30;
+    }
+}

@@ -1,0 +1,15 @@
+.hero {
+    background-image: url(../img/Rectangle-58.jpg);
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: url(../img/maurice.jpg);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        background-image: url(../img/scream-hero.jpg);
+    }
+}

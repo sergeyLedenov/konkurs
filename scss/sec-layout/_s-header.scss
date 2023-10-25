@@ -1,0 +1,26 @@
+.sec-logo-header {
+    color: #004FFF;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    width: calc(50% - 15px);
+    padding-left: 15px;
+}
+
+.quit {
+    color: #004FFF;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.sec-header {
+    height: 40px;
+    background: linear-gradient(to bottom, #001648  0%, rgb(6, 6, 6) 100%);
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,97 @@
+.popular-novelty {
+    font-weight: 400;
+    font-size: 35.7033px;
+    line-height: 52px;
+    background-color: rgb(6, 6, 6);
+}
+
+.h3-novelty {
+    font-family: 'Jost';
+    font-style: normal;
+    text-align: center;
+    color: #004FFF;
+    line-height: 1.20;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.div-novelty {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-popular {
+    height: 277px;
+    width: 160px;
+}
+
+.img-popular:hover {
+    animation: pulse;
+    animation-duration: 0.5s;
+}
+
+.opus-novelty {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .img-popular {
+        height: 550px;
+        width: 350px;
+    }
+
+    .last {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .div-novelty {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .img-popular {
+        background-size: cover;
+    }
+    
+    .last, .cruise {
+        margin-right: 0;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    .opus-novelty {
+        display: block;
+    }
+
+    .div-novelty {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ryziki {
+        height: 233px;
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+    
+    .p-opus-popular {
+        width: 390px;
+        padding-bottom: 20px;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.43;
+        text-align: center;
+        color: #417CFF;
+
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}

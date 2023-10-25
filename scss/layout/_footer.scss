@@ -1,0 +1,117 @@
+.footer {
+    background: linear-gradient(to bottom, rgb(6, 6, 6)  0%, #001648 100%);
+}
+
+.logo-footer {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.25;
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 35px;
+    padding-bottom: 10px;
+    
+    color: #004FFF;
+}
+
+.p-info-footer {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.45;
+    text-align: center;
+        
+    color: #417CFF;
+}
+
+.p-info-footer{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.45;
+    text-align: center;
+
+    color: #417CFF;
+}
+
+.social-media{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+                
+    color: #417CFF;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-footer {
+        font-weight: 400;
+        font-size: 77px;
+        line-height: 1.25;
+    }
+
+    .div-info-footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .p-info-footer {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 1.44;
+        text-align: start;
+    }
+
+    .social-media {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.43;
+
+    }
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+
+.our-team-img-cntainer0-container1-ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    margin-top: 7px;
+}
+
+button {
+    padding-top: 3px;
+    border-radius: 100%;
+    border: #417CFF 3px solid;
+    height: 44px;
+    width: 44px;
+    transition: 0.15s;
+    background: rgb(6, 6, 6);
+    margin-bottom: 5px;
+    
+    &:hover > svg > path {
+        fill: rgb(177, 202, 255);
+    }
+    &:hover {
+        border: rgb(177, 202, 255) 3px solid;
+    }
+}
+
+button > svg > path {
+    transition: 0.15s;
+    fill: #417CFF;
+}
