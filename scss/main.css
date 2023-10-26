@@ -850,6 +850,7 @@ body {
   align-items: center;
   align-content: center;
   text-align: center;
+  cursor: pointer;
 }
 
 .main-film {
